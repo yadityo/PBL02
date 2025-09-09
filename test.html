@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Proposal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Tambahkan di sebelum </body> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="proposal-container">
+      <!-- Cover -->
+      <section class="cover">
+        <h1>Judul Proposal</h1>
+        <h2>Nama Kegiatan</h2>
+        <p>Disusun oleh: <strong>Nama Anda</strong></p>
+        <p>Tanggal: 09 September 2025</p>
+      </section>
+
+      <!-- Pendahuluan -->
+      <section class="content">
+        <h2>Pendahuluan</h2>
+        <p>
+          Proposal ini dibuat untuk menjelaskan latar belakang, tujuan, serta
+          rencana kegiatan.
+        </p>
+      </section>
+
+      <!-- Tujuan -->
+      <section class="content">
+        <h2>Tujuan</h2>
+        <ul>
+          <li>Meningkatkan keterampilan peserta</li>
+          <li>Membangun kerja sama tim</li>
+        </ul>
+      </section>
+
+      <!-- Anggaran -->
+      <section class="content">
+        <h2>Rencana Anggaran</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Uraian</th>
+              <th>Biaya (Rp)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Sewa Tempat</td>
+              <td>1.000.000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Konsumsi</td>
+              <td>500.000</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Tombol -->
+      <button id="downloadBtn">Download Proposal (PDF)</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
