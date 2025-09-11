@@ -1,5 +1,11 @@
-const saved = true
-const done = false
+let tx = "This"
+tx = tx + " is a"
+tx += " sentence"
 
-console.log(saved);
-console.log(done);
+console.log(tx);
+
+let z = 6
+++z
+--z
+
+console.log(z);
